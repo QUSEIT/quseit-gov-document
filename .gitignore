@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_*.docx
+*.docx
+
+# Local fixtures (if you add tests/, keep their fixtures tracked)
+!docs/assets/*.docx
